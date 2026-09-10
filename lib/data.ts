@@ -1,3 +1,24 @@
+export type Project = {
+  id: number;
+  title: string;
+  description: string;
+  category: string;
+  streamlitUrl: string;
+  tech: string[];
+  github?: string;
+};
+
+export type Certificate = {
+  id: number;
+  title: string;
+  issuer: string;
+  serial?: string;
+  date?: string;
+  duration?: string;
+  performance?: string;
+  description?: string;
+  imageUrl?: string;
+};
 export const projectsData = [
   {
     id: 1,
