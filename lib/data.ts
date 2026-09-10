@@ -4,7 +4,7 @@ export const projectsData = [
     title: "Enterprise Hybrid RAG System",
     tech: ["Python", "Vector DB", "LangChain", "LLM APIs"],
     description: "Scalable retrieval-augmented generation engine combining dense and sparse mechanisms for context-aware, zero-hallucination querying.",
-    streamlitUrl: "https://your-streamlit-app-1.streamlit.app",
+    streamlitUrl: "https://ai-chatbot-aeyurfdcszn26sjmmamdg6.streamlit.app/",
     category: "Generative AI & RAG",
   },
   {
@@ -12,7 +12,7 @@ export const projectsData = [
     title: "Intelligent Financial Advisory Engine",
     tech: ["Machine Learning", "Scikit-Learn", "Pandas", "Predictive Logic"],
     description: "Evaluates user income streams and budget data to automatically generate custom risk-indexed wealth management strategies.",
-    streamlitUrl: "https://your-streamlit-app-2.streamlit.app",
+    streamlitUrl: "https://ens92lajr354nxmens6mfj.streamlit.app/",
     category: "Machine Learning",
   },
   {
@@ -20,7 +20,7 @@ export const projectsData = [
     title: "AI-Powered Attendance & Monitoring Architecture",
     tech: ["Computer Vision", "OpenCV/QR", "Python", "Streamlit"],
     description: "Real-time attendance platform featuring dynamic QR verification and interactive admin monitoring analytics.",
-    streamlitUrl: "https://your-streamlit-app-3.streamlit.app",
+    streamlitUrl: "https://financialadvisor-a84b83lyagytbuvxn32wr7.streamlit.app/",
     category: "Streamlit Live Apps",
   },
   {
@@ -28,7 +28,7 @@ export const projectsData = [
     title: "Advanced Data Extraction & Automation Suite",
     tech: ["Selenium", "Scrapy", "High-Concurrency Python", "NumPy"],
     description: "High-performance scraping toolkit designed to bypass anti-bot protections and feed sanitized data directly into ML pipelines.",
-    streamlitUrl: "https://your-streamlit-app-4.streamlit.app",
+    streamlitUrl: "https://news-scraper-subhgdnmpxojqqhyg927tv.streamlit.app/",
     category: "Automation & Scraping",
   },
 ];
