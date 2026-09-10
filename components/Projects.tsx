@@ -2,7 +2,8 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ExternalLink, Play, Sparkles } from "lucide-react";
-import { projectsData, Project } from "@/lib/data";
+import { projectsData } from "@/lib/data";
+import type { Project } from "@/lib/data";
 import StreamlitModal from "./StreamlitModal";
 
 const filters = [

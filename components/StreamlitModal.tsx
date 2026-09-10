@@ -1,7 +1,7 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, ExternalLink, MonitorPlay } from "lucide-react";
-import { Project } from "@/lib/data";
+import type { Project } from "@/lib/data";
 
 export default function StreamlitModal({
   project,

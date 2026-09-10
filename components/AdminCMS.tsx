@@ -12,7 +12,9 @@ import {
   Inbox,
   Wrench,
 } from "lucide-react";
-import { projectsData, Project } from "@/lib/data";
+import { projectsData } from "@/lib/data";
+import type { Project } from "@/lib/data";
+
 
 export default function AdminCMS() {
   const [authed, setAuthed] = useState(false);

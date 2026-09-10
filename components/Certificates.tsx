@@ -2,7 +2,8 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Award, X, BadgeCheck } from "lucide-react";
-import { certificatesData, Certificate } from "@/lib/data";
+import { certificatesData } from "@/lib/data";
+import type { Certificate } from "@/lib/data"
 
 export default function Certificates() {
   const [selected, setSelected] = useState<Certificate | null>(null);
