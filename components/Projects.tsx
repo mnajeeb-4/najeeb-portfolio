@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ExternalLink, Play, Sparkles } from "lucide-react";
@@ -7,9 +6,6 @@ import { projectsData } from "@/lib/data";
 import type { Project } from "@/lib/data";
 import StreamlitModal from "./StreamlitModal";
 
-const filters = [
-  "All",
-  // ... baqi code
 const filters = [
   "All",
   "Generative AI & RAG",
@@ -129,3 +125,4 @@ export default function Projects() {
       />
     </section>
   );
+}
