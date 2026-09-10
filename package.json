@@ -17,7 +17,7 @@
     "next": "14.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-simple-typewriter": "^5.0.1",
+    "nextjs-simple-typewriter": "^5.2.2",
     "three": "^0.164.1"
   },
   "devDependencies": {

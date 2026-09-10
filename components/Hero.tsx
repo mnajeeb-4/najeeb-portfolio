@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
-import { Typewriter } from "react-simple-typewriter"; // Make sure to install: npm i react-simple-typewriter
+import { Typewriter } from "nextjs-simple-typewriter"; // Make sure to install: npm i react-simple-typewriter
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 export default function Hero() {
