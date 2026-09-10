@@ -19,7 +19,8 @@ export type Certificate = {
   description?: string;
   imageUrl?: string;
 };
-export const projectsData = [
+
+export const projectsData: Project[] = [
   {
     id: 1,
     title: "Enterprise Hybrid RAG System",
@@ -54,7 +55,7 @@ export const projectsData = [
   },
 ];
 
-export const certificatesData = [
+export const certificatesData: Certificate[] = [
   {
     id: 1,
     title: "Python Programming Certification",
